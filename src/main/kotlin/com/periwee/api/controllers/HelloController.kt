@@ -9,6 +9,6 @@ class HelloController {
 
     @GetMapping("/hello")
     fun handle(): String {
-        return "Hello World"
+        return "Hello World computer"
     }
 }
